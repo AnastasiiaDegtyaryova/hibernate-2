@@ -7,4 +7,5 @@ public class StaffDAO extends GenericDAO<Staff, Integer> {
     public StaffDAO(org.hibernate.SessionFactory sessionFactory) {
         super(sessionFactory, Staff.class);
     }
+
 }

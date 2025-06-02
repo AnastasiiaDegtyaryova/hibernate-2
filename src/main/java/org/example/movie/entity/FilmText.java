@@ -25,4 +25,5 @@ public class FilmText {
     @MapsId
     @JoinColumn(name = "film_id")
     private Film film;
+
 }

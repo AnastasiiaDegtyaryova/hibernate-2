@@ -7,4 +7,5 @@ public class StoreDAO extends GenericDAO<Store, Short> {
     public StoreDAO(org.hibernate.SessionFactory sessionFactory) {
         super(sessionFactory, Store.class);
     }
+
 }

@@ -26,4 +26,5 @@ public class Country {
 
     @OneToMany(mappedBy = "country", cascade = CascadeType.ALL)
     private List<City> cities = new ArrayList<>();
+
 }

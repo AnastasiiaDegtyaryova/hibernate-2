@@ -28,4 +28,5 @@ public class Category {
 
     @ManyToMany(mappedBy = "categories")
     private Set<Film> films;
+
 }

@@ -25,4 +25,5 @@ public class FilmDTO {
     private short rentalDuration;
     private BigDecimal rentalRate;
     private BigDecimal replacementCost;
+
 }

@@ -30,4 +30,5 @@ public class City {
 
     @OneToMany(mappedBy = "city", cascade = CascadeType.ALL)
     private List<Address> addresses = new ArrayList<>();
+
 }

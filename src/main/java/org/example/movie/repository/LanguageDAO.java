@@ -8,4 +8,5 @@ public class LanguageDAO extends GenericDAO<Language, Short> {
     public LanguageDAO(SessionFactory sessionFactory) {
         super(sessionFactory, Language.class);
     }
+
 }

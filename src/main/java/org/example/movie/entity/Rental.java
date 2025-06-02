@@ -37,4 +37,5 @@ public class Rental {
 
     @Column(name = "last_update")
     private LocalDateTime lastUpdate;
+
 }

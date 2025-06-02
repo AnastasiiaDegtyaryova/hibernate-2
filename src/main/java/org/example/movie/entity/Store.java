@@ -23,4 +23,5 @@ public class Store {
 
     @OneToMany(mappedBy = "store")
     private List<Customer> customers;
+
 }
