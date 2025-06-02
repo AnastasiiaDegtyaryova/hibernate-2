@@ -70,4 +70,5 @@ public class Film {
             inverseJoinColumns = @JoinColumn(name = "actor_id")
     )
     private Set<Actor> actors;
+
 }

@@ -102,4 +102,5 @@ public class Main {
             return session.createQuery("select max(r.id) from Rental r", Integer.class).getSingleResult();
         }
     }
+
 }

@@ -35,4 +35,5 @@ public class Inventory {
 
     @OneToMany(mappedBy = "inventory")
     private Set<Rental> rentals = new HashSet<>();
+
 }

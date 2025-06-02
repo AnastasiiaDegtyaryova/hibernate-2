@@ -40,5 +40,6 @@ public class Address {
 
     @OneToMany(mappedBy = "address", cascade = CascadeType.ALL)
     private List<Customer> customers = new ArrayList<>();
+
 }
 

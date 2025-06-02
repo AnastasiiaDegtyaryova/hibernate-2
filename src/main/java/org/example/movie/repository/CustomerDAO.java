@@ -13,4 +13,5 @@ public class CustomerDAO extends GenericDAO<Customer, Integer> {
     public CustomerDAO(SessionFactory sessionFactory) {
         super(sessionFactory, Customer.class);
     }
+
 }

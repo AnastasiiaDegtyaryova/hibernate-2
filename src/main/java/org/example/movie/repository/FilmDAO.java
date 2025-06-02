@@ -8,4 +8,5 @@ public class FilmDAO extends GenericDAO<Film, Integer> {
     public FilmDAO(SessionFactory sessionFactory) {
         super(sessionFactory, Film.class);
     }
+
 }

@@ -8,4 +8,5 @@ public class AddressDAO extends GenericDAO<Address, Short> {
     public AddressDAO(SessionFactory sessionFactory) {
         super(sessionFactory, Address.class);
     }
+
 }

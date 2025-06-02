@@ -17,5 +17,6 @@ public class RentalDTO {
     private Integer inventoryId;
     private Integer staffId;
     private BigDecimal amount;
+
 }
 

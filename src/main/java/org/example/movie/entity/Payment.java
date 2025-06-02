@@ -37,4 +37,5 @@ public class Payment {
 
     @Column(name = "payment_date")
     private LocalDateTime paymentDate;
+
 }

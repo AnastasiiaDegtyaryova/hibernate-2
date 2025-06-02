@@ -8,4 +8,5 @@ public class ActorDAO extends GenericDAO<Actor, Short> {
     public ActorDAO(SessionFactory sessionFactory) {
         super(sessionFactory, Actor.class);
     }
+
 }

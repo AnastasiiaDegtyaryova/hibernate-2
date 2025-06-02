@@ -48,6 +48,5 @@ public class Staff {
 
     @Column(name = "last_update")
     private LocalDateTime lastUpdate;
-
 }
 

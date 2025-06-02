@@ -72,4 +72,5 @@ public class GenericDAO<T, ID extends Serializable> {
     public void delete(Session session, T entity) {
         session.remove(entity);
     }
+
 }

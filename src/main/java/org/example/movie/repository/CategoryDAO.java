@@ -8,4 +8,5 @@ public class CategoryDAO extends GenericDAO<Category, Short> {
     public CategoryDAO(SessionFactory sessionFactory) {
         super(sessionFactory, Category.class);
     }
+
 }

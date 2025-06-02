@@ -30,4 +30,5 @@
         <mapping class="org.example.movie.entity.Payment"/>
 
     </session-factory>
+
 </hibernate-configuration>

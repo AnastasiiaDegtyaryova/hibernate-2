@@ -41,4 +41,5 @@ public class Customer {
 
     @Column(name = "last_update")
     private LocalDateTime lastUpdate;
+
 }
